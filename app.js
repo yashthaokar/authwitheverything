@@ -16,6 +16,9 @@ app.use(fileUpload({
 
 //using routes
 app.use('/api/v1',User)
+app.get("/",(req,res)=>{
+    res.send("server is working Y@shCode")
+})
 
 
 
